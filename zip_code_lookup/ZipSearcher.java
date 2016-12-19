@@ -1,4 +1,3 @@
-package zipCodeLookUp;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
@@ -20,10 +19,6 @@ public class ZipSearcher {
 	    System.out.print("Please input the Zipcode you want to look up for:");
 	    String zipCode = scanner.next();
 
-		/*System.out.println("Testing 1 - Send Http GET request");
-		http.sendGet();*/
-
-//		System.out.println("\nTesting 2 - Send Http POST request");
 		http.sendPost(zipCode);
 
 	}
@@ -84,25 +79,8 @@ public class ZipSearcher {
 		wr.close();
 
 		int responseCode = con.getResponseCode();
-/*		System.out.println("\nSending 'POST' request to URL : " + url);
-		System.out.println("Post parameters : " + urlParameters);
-		System.out.println("Response Code : " + responseCode);
-*/
 		SAXParserDemo parser = new SAXParserDemo();
 		parser.demoXMLParser(con.getInputStream());
 		
-//		BufferedReader in = new BufferedReader(
-//		        new InputStreamReader(con.getInputStream()));
-//		String inputLine;
-//		StringBuffer response = new StringBuffer();
-//
-//		while ((inputLine = in.readLine()) != null) {
-//			response.append(inputLine);
-//		}
-//		in.close();
-//
-//		//print result
-//		System.out.println(response.toString());
-
 	}
 }

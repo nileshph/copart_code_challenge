@@ -1,8 +1,6 @@
 /**
  * 
  */
-package com.utd.grp13;
-
 import java.util.Scanner;
 
 /**
