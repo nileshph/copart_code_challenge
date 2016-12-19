@@ -1,0 +1,4 @@
+
+grammar hello;
+
+public <greet> = (deploy) (my) (code) (to) (dev)(one);
