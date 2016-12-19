@@ -20,6 +20,7 @@ public class Piece_of_cake {
 		 */
 
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Please enter the number of rectangles and areas");
 
 		int numCake = sc.nextInt();
 		ArrayList<Double> area = new ArrayList<>();
