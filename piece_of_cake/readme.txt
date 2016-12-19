@@ -1,0 +1,1 @@
+Run Piece_of_cake.java and enter number of rectangles and their area

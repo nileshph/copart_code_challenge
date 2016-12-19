@@ -1,0 +1,1 @@
+Run Facility_Problem.java, it will load data of copart facilities and customer rules. Then enter customer id and his/her zip code. It will show the nearest facility to customer based on distance and its exclusion rules.
